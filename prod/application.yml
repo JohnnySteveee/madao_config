@@ -30,7 +30,7 @@ spring:
     url: jdbc:mysql://mysql:3306/madaoo?characterEncoding=utf-8&allowPublicKeyRetrieval=true&useSSL=false
     type: com.alibaba.druid.pool.DruidDataSource
     username: root
-    password: '123456'
+    password: 123456
     initialSize: 10 # 池启动时创建的连接数量
     maxWait: 60000 # 配置获取连接等待超时的时间
     minIdle: 5 # 在不新建连接的条件下，池中保持空闲的最少连接数
