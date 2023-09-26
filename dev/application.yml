@@ -79,12 +79,12 @@ eureka:
 
 # 暂无可用图床，自行对接图床
 # 阿里云OSS对象存储，如果没有aliyun oss 注释这个配置
-#aliyun:
-  #oss:
+aliyun:
+  oss:
     # 确认endpoint里面的请求地址跟bucket是否都一致。 https://mvp.aliyun.com/zhidao/9180
-    #endpoint: oss-cn-shanghai.aliyuncs.com
-    #access-key-id: LTAI4GEKJCtEQgJEKthv6RxG
-    #access-key-secret: '{cipher}AQAEXsD6bb8C5tWsX/gCA//gthigzDy6rMIppbnak2yvD1hCX7WCdD/1MeYjD1iVH4oOWbFEMwiCVN4dmj7Yg4amYxwn+CS5Ac0VOqoi1Xk18hGSywigHiPmJMB6MTjnC14miV1KA9C9jhdQNvcv0FKf+lu0UUxfh8Gzu6crTOA3OMXO9WgnWZ8EQo2NFyhnoybAvG9R02pCBw0pw7v0xc+vV29+CzBQvv4rtwRcz0zofkdTlFQK64t6qebOCmo5MfTIWbmXHfIvWa3uYFx7R6VANdIc7ID9f7D/I8zj7BhzPz03f7puXSQ3xJOM6YAyYz4MmLvCb/y2W0bkRV5woHNmLlJoE67NSk7nalzs0tT3lz8HL5NmtI+2TLHd/N5mWJ/JlnpKYnksxly4Y35fpBM+'
+    endpoint: oss-cn-shanghai.aliyuncs.com
+    access-key-id: LTAI4GEKJCtEQgJEKthv6RxG
+    access-key-secret: '{cipher}AQAEXsD6bb8C5tWsX/gCA//gthigzDy6rMIppbnak2yvD1hCX7WCdD/1MeYjD1iVH4oOWbFEMwiCVN4dmj7Yg4amYxwn+CS5Ac0VOqoi1Xk18hGSywigHiPmJMB6MTjnC14miV1KA9C9jhdQNvcv0FKf+lu0UUxfh8Gzu6crTOA3OMXO9WgnWZ8EQo2NFyhnoybAvG9R02pCBw0pw7v0xc+vV29+CzBQvv4rtwRcz0zofkdTlFQK64t6qebOCmo5MfTIWbmXHfIvWa3uYFx7R6VANdIc7ID9f7D/I8zj7BhzPz03f7puXSQ3xJOM6YAyYz4MmLvCb/y2W0bkRV5woHNmLlJoE67NSk7nalzs0tT3lz8HL5NmtI+2TLHd/N5mWJ/JlnpKYnksxly4Y35fpBM+'
 
 com:
   madao:
