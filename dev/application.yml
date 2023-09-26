@@ -48,8 +48,8 @@ spring:
 
   rabbitmq:
     host: localhost
-    username: admin
-    password: admin
+    username: guest
+    password: guest
     port: 5672
     virtual-host: /
     publisher-returns: true
